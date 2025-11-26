@@ -38,9 +38,56 @@ body {
     align-items: center;
 }
 
-.input-group{
+.input-group, .output-group {
 width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
+flex: 1;
+margin: 5px;
+}
+
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.result-container {
+    width: 45%;
+    background: #dff0d8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+input, button {
+    margin: 5px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 93%;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
 }
